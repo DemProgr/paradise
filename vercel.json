@@ -1,0 +1,6 @@
+{
+  "framework": "vite",
+  "build": "vite build --outDir dist --emptyOutDir",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
