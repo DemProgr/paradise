@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build --outDir dist --emptyOutDir",
+    "build": "vite build --outDir dist --emptyOutDir && cp .output/public/index.html dist/ 2>/dev/null || true",
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write ."

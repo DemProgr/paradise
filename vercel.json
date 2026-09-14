@@ -1,7 +1,7 @@
 {
   "framework": "vite",
-  "buildCommand": "vite build --outDir dist --emptyOutDir",
-  "outputDirectory": "dist",
+  "buildCommand": "vite build",
+  "outputDirectory": ".output/public",
   "devCommand": "vite dev",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
